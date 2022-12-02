@@ -43,16 +43,16 @@ class Program
         if (angleA == angleB && angleA == angleC)
         {
             Console.WriteLine("You have an equalatiral triangle!");
-        } 
-        else if (angleA != angleB && angleA != angleC && angleB != angleC) 
+        }
+        else if (angleA != angleB && angleA != angleC && angleB != angleC)
         {
             Console.WriteLine("You have an scalene triangle!");
-        } 
-        else if ((angleA != angleB && angleA == angleC) || (angleA == angleB && angleA != angleC)) 
+        }
+        else if ((angleA != angleB && angleA == angleC) || (angleA == angleB && angleA != angleC))
         {
             Console.WriteLine("You have an isosceles triangle!");
-        } 
-        else 
+        }
+        else
         {
             Console.WriteLine("Umm. not a triangle");
         }
